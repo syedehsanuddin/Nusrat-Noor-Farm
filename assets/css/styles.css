@@ -508,6 +508,7 @@ the website, in dark theme
   justify-self: center;
   margin-bottom: var(--mb-0-75);
   transition: .3s;
+  border-radius:100px;
 }
 
 .product__title,
@@ -537,13 +538,13 @@ the website, in dark theme
 }
 
 .product__circle{
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   background-color: var(--first-color-lighten);
   border-radius: 50%;
   position: absolute;
-  top: 18%;
-  left: 5%;
+  top: 9%;
+  left: -8%;
 }
 
 .product__card:hover .product__img{
@@ -1003,8 +1004,8 @@ the website, in dark theme
     width: 160px;
   }
   .product__circle{
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
   }
   .product__title,
   .product__price{
